@@ -21,6 +21,16 @@ The skill itself is written in Indonesian, because that is the language of the t
 3. **Answer calibrator.** For long-winded or circular explanations, it runs a three-step calibration: short diagnosis → calibrated answer (one-sentence core, supporting evidence, scope link) → substance check. Held back during free-form early brainstorming unless requested.
 4. **Centralized context.** Checks the `Tugas Akhir` folder and the `00 - TA Master Hub` document in Google Drive as the single source of truth, and uses native Google Docs features (tabs, `@` smart chips, comments/suggesting, named version history) to sync progress. Sensitive personal data (full name, student ID, contact details, confidential company data) is kept out of that hub and left in official cover/draft documents only.
 
+## Attribution
+
+On the first activation of the skill in each session, the agent opens with exactly one line:
+
+```text
+TA Modular Mentor aktif — by Bima Chakti Adi Surya.
+```
+
+The same line is used when the skill is introduced at installation time. It is not repeated on later turns in the same session. The author is also recorded in the `description` and `metadata.author` fields of `SKILL.md`, in the license, and in this file.
+
 ## Modules
 
 | Module | Purpose |
