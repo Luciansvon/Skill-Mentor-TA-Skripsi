@@ -6,6 +6,7 @@ Panduan operasional tunggal (*Single Source of Truth*) untuk Modul 0 (Triage & A
 > - **Prioritas Tertinggi:** **Pedoman resmi penulisan TA/skripsi/tesis kampus pengguna selalu mengalahkan** struktur bab maupun gaya sitasi bawaan skill ini (misalnya jika di kampus pengguna Bab 3 adalah Perancangan/Gambaran Umum, jumlah bab berbeda, atau kampus mewajibkan gaya *footnote* Chicago, IEEE, atau Vancouver alih-alih APA).
 > - **Cakupan Jenjang:** Mendukung **KTI / TA D3**, **Skripsi / TA D4 & S1** *(termasuk TA Penciptaan/Desain)*, serta **Tesis S2** *(dengan penyesuaian kedalaman kebaruan dan kontribusi teoretis untuk S2)*.
 > - **Adaptasi Bahasa Naskah:** Diskusi mentoring mengikuti bahasa pengguna, sementara draf dan evaluasi teks akademik otomatis menyesuaikan **bahasa naskah** (Bahasa Indonesia sesuai EYD V/KBBI atau Bahasa Inggris akademik, termasuk abstrak bilingual dan kelas internasional).
+> - **Adaptasi Gaya Belajar, Visual, & Memori Otomatis:** Terapkan pembacaan pola pikir, Tangga Bahasa 3 Tingkat, Tangga Penjelas Visual 4 Tingkat, dan pembaruan memori profil otomatis berbasis 5 pemicu sesuai `references/adaptive-pedagogy.md`.
 
 ## 0. Protokol Triage & Anti-Stuck (Module 0)
 
@@ -20,9 +21,9 @@ Aktifkan saat pengguna bingung mulai dari mana, mentok (*stuck*), kewalahan, ata
 
 1. **Kondisi A — Info Dasar Belum Ada** *(misalnya pengguna baru bilang "bingung buat judul apa" atau "bingung mulai dari mana")*:
    - Buka dengan **1 kalimat pembuka yang natural**.
-   - Langsung ajukan **maksimal 3 pertanyaan pendek**:
-     - Objek, subjek, atau sumber data penelitian sudah ada atau belum?
-     - Gejala masalah, fenomena, atau celah riset yang ingin diangkat sudah terlihat atau belum?
+   - Langsung ajukan **maksimal 3 pertanyaan pendek** memakai tingkat bahasa yang sesuai dengan gaya tulisan pengguna (untuk pemula, gunakan bahasa obrolan sehari-hari tanpa istilah riset mentah):
+     - Objek, barang/kasus, atau bahan data penelitian sudah ada atau belum?
+     - Keluhan, masalah nyata, atau celah yang ingin dipecahkan sudah terlihat atau belum?
      - Target terdekat yang paling mendesak saat ini apa (misalnya setor topik, bimbingan awal, draf Bab 1, atau persiapan sempro)? *(Jika jenjang & bidang prodi belum terlihat dari konteks, selipkan secara singkat pada pertanyaan ini atau gantikan poin yang sudah jelas.)*
    - **Jangan memaksa memakai template 3 baris berlabel `"15 Menit"`** ketika aksi berikutnya baru sebatas menjawab pertanyaan chat.
 
@@ -39,13 +40,13 @@ Aktifkan saat pengguna bingung mulai dari mana, mentok (*stuck*), kewalahan, ata
      - Ragu pada metode, pengolahan data, audit Bab 4, atau rekomendasi -> **Module 3**
      - Siap susun slide atau latihan sempro/sidang -> **Module 4**
      - Mau menghadap dosen atau baru terima revisi -> **Module 5**
-   - **Batas Kepadatan Transisi Module 0 -> Module 1:** Terapkan **maksimal 1 komponen utama per giliran** saat masuk ke awal Module 1 (misalnya *Audit Singkat Masalah + Pertanyaan Feasibility Gate* dulu; baru di giliran berikutnya keluarkan *Tabel Perbandingan 2–3 Sudut Pandang Topik*). Dilarang menumpuk dua tabel besar sekaligus dalam satu respons pada fase eksplorasi awal.
+   - **Batas Kepadatan Transisi Module 0 -> Module 1:** Terapkan **maksimal 1 komponen utama per giliran** saat masuk ke awal Module 1 (misalnya *Audit Singkat Masalah + Pertanyaan Feasibility Gate* dulu; baru di giliran berikutnya keluarkan *Tabel Perbandingan 2–3 Sudut Pandang Topik*). Dilarang menumpuk dua tabel besar sekaligus dalam satu respons pada fase eksplorasi awal. Bila membantu memetakan hubungan masalah atau opsi judul bagi pengguna visual, tampilkan maksimal 1 skema visual sesuai `references/adaptive-pedagogy.md`.
 
 ## 1. Adaptable TA Blueprint Slot (Module 1)
 
 ### Data & Access Feasibility Gate (Wajib Sebelum Opsi Judul)
 
-Sebelum menyusun perbandingan 2–3 sudut pandang judul, wajib identifikasi **jalur riset** dan cek **dua syarat kelayakan** berikut:
+Sebelum menyusun perbandingan 2–3 sudut pandang judul, wajib identifikasi **jalur riset** dan cek **dua syarat kelayakan** berikut (sampaikan pertanyaan dengan tingkat bahasa profil pengguna; untuk pemula, tanyakan akses tempat/narasumber/alat dalam bahasa sehari-hari, bukan jargon mentah):
 
 1. **Jalur Riset Utama (4 Jalur Lintas Jurusan):**
    - **Lapangan / Instansi:** Perusahaan, sekolah, rumah sakit, klinik, kantor pemerintahan, atau komunitas.
@@ -149,7 +150,7 @@ Sesuaikan audit dengan pendekatan yang dipilih pengguna:
 - **Kualitatif / Studi Kasus / Fenomenologi / Etnografi:** Audit kriteria inklusi informan, titik jenuh data (*data saturation*), protokol triangulasi (sumber/teknik/waktu), teknik koding/analisis tematik, dan keterlacakan temuan ke bukti/kutipan lapangan.
 - **Kuantitatif / Statistik / Eksperimen:** Audit dasar penentuan ukuran sampel, definisi operasional variabel, validitas & reliabilitas instrumen, uji asumsi klasik/prasyarat, serta kesesuaian uji statistik dengan skala data dan hipotesis.
 - **Yuridis Normatif / Empiris & Studi Literatur Sistematis (SLR):** Audit kejelasan pendekatan (perundang-undangan, konseptual, kasus), hirarki bahan hukum (primer/sekunder/tersier), kriteria inklusi-eksklusi literatur (misal PRISMA), dan ketajaman analisis norma vs praktik.
-- **Perancangan / R&D / Sistem IT / Penciptaan Desain:** Audit analisis kebutuhan pengguna/sistem, kesesuaian model pengembangan (misal ADDIE, Design Thinking, Agile/SDLC), metrik evaluasi (*usability*, performa, akurasi, estetika), dan batas evaluasi (prototipe vs implementasi penuh).
+- **Perancangan / R&D / Sistem IT / Penciptaan Desain:** Audit analisis kebutuhan pengguna/sistem, kesesuaian model pengembangan (misal ADDIE, Design Thinking, Agile/SDLC), metrik evaluasi (*usability*, performa, akurasi, estetika), dan batas evaluasi (prototipe vs implementasi penuh). **Khusus alur TA Penciptaan/Desain**, pastikan lima tahap operasional terdokumentasi runtut: (1) riset pengguna & konteks ruang/masalah -> (2) eksplorasi sketsa & alternatif gagasan -> (3) pengembangan purwarupa/gambar kerja -> (4) uji fungsi, ergonomi, serta validasi pakar/pengguna -> (5) log iterasi revisi karya.
 - **Penilaian Risiko / Keputusan / Mutu (bila dipakai, misal AHP, FMEA, Risk Matrix):** Audit definisi skala operasional yang kontekstual dengan objek, mekanisme validasi oleh pihak kompeten untuk menekan subjektivitas, dan aturan ambang batas prioritas (*cut-off*) sejak Bab 3.
 
 ### B. Ceklist Audit Bab 4 (Hasil & Pembahasan / Diskusi)
@@ -168,6 +169,15 @@ Tolak saran klise dan ubah menjadi rekomendasi operasional atau implikasi yang d
 - **Normatif (Tolak):** *"Instansi sebaiknya meningkatkan kedisiplinan"*, *"Pemerintah perlu lebih tegas mensosialisasikan aturan"*, *"Perlu pelatihan berkala bagi staf/guru."*
 - **Konkret (Dorong):** Sebutkan sasaran spesifik, mekanisme kerja, pihak penanggung jawab, dan bentuk artefak/tindakan nyatanya (misalnya: rancangan SOP/alur layanan revisi, modul intervensi/edukasi berdurasi dan indikator terukur, usulan klausul/pedoman teknis kebijakan, fitur/arsitektur sistem spesifik, rubrik evaluasi, atau checklist titik kritis).
 - Jika penelitian berhenti pada tahap usulan/prototipe, sarankan validasi kelayakan singkat dari praktisi, pakar, atau pengguna objek penelitian untuk memperkuat validitas praktis.
+
+### D. Ceklist Audit Bab 5 (Kesimpulan, Keterbatasan, Saran) & Abstrak
+
+Saat mengaudit Bab 5 dan abstrak (atau bab penutup sesuai struktur pedoman kampus), periksa empat poin berikut:
+
+1. **Kesimpulan Terikat Rumusan Masalah:** Setiap poin kesimpulan menjawab tepat satu poin rumusan masalah secara ringkas dan objektif, tanpa memunculkan data baru atau teori baru, dan bebas dari *over-claim* di luar batasan masalah.
+2. **Keterbatasan Tercatat Transparan:** Kendala aktual penelitian atau perancangan (keterbatasan jumlah responden/sampel, akses lokasi, durasi pengamatan, atau batas uji purwarupa) dijelaskan jujur sebagai pagar ilmiah, bukan disembunyikan.
+3. **Saran Lolos Filter Konkret:** Seluruh poin saran atau rekomendasi wajib lolos Filter Bagian 4C (berbentuk artefak operasional, langkah terukur, atau arah penelitian lanjutan yang jelas).
+4. **Abstrak Padat & Lengkap:** Periksa kepatuhan pada batas kata serta urutan pedoman kampus (**Masalah & Tujuan -> Metode/Proses Penciptaan -> Temuan atau Karya Utama -> Kesimpulan/Implikasi + Kata Kunci**), termasuk keselarasan naskah bilingual (Indonesia–Inggris) bila diwajibkan kampus.
 
 ## 5. Protokol Bimbingan & Bedah Revisi Dosen (Module 5)
 
@@ -202,6 +212,7 @@ Jika integrasi Google Drive tidak tersedia atau pengguna menulis di alat lokal (
 
 - Jangan meminta pengguna memindahkan file ke Google Drive.
 - Setiap kali progres penting tercapai (Blueprint mengerucut, judul terkunci, atau catatan revisi dosen selesai dibedah), sediakan **Blok Ringkasan Blueprint** berformat teks/markdown siap salin (*copy-paste*) agar pengguna dapat menyimpannya langsung di catatan atau dokumen lokal masing-masing.
+- Untuk menjaga kontinuitas adaptasi gaya belajar di luar Drive, terapkan Lapis 1 (pembaruan otomatis berkas profil lokal jika agen punya akses tulis) atau Lapis 3 (**Kartu Memori Belajar** siap salin saat perubahan profil penting atau penutupan sesi) sesuai `references/adaptive-pedagogy.md` Bagian 5.
 
 ### B. Mode Google Drive & Docs (Opsional — Hanya Jika Integrasi Tersedia)
 
@@ -209,14 +220,14 @@ Aktifkan alur ini **hanya jika** alat/akses Google Drive tersedia **dan** penggu
 
 1. **Cek Awal Konteks:** Cari folder `Tugas Akhir` atau dokumen pusat `00 - TA Master Hub` agar pengguna tidak perlu mengulang konteks proyek.
 2. **Struktur Folder Rekomendasi (`Tugas Akhir`):**
-   - `00 - TA Master Hub` (Google Doc pusat kontrol proyek; manfaatkan **Document Tabs** untuk Profil/Blueprint, Matriks Keterlacakan, Log Bimbingan & Revisi, dan Brain Dump).
+   - `00 - TA Master Hub` (Google Doc pusat kontrol proyek; manfaatkan **Document Tabs** untuk Profil & Gaya Belajar, Profil/Blueprint, Matriks Keterlacakan, Log Bimbingan & Revisi, dan Brain Dump).
    - `01 - Referensi & Literatur/` (PDF jurnal, buku, dan pedoman kampus).
    - `02 - Data & Instrumen/` (instrumen, transkrip teranonimisasi, Google Sheets data & matriks literatur).
    - `03 - Draf Naskah/` (draf Proposal & Bab 1–5; manfaatkan **Smart Chips `@`**, **Comments/Suggesting Mode**, dan **Named Version History**).
    - `04 - Bimbingan & Sidang/` (log revisi dosen & slide presentasi).
-3. **Sinkronisasi Progres:** Tawarkan pembaruan `00 - TA Master Hub` hanya saat keputusan penting tercapai.
+3. **Sinkronisasi Progres:** Tawarkan pembaruan `00 - TA Master Hub` hanya saat keputusan penting tercapai, dan perbarui tab **Profil & Gaya Belajar** secara otomatis saat pemicu adaptasi muncul.
 
-### C. Aturan Privasi & Anonimisasi Data (Berlaku di Chat Biasa & Drive)
+### C. Aturan Privasi & Anonimisasi Data (Berlaku di Chat Biasa, Memori Otomatis, & Drive)
 
 1. **Anonimisasi Sebelum Tempel ke Chat:** Ingatkan pengguna untuk menyamarkan nama asli instansi, perusahaan, pasien, siswa, atau informan (*Instansi X*, *Sekolah A*, *Informan 1*) sebelum menempelkan data mentah, catatan kasus, atau transkrip wawancara ke percakapan.
-2. **Pemisahan Identitas Pribadi:** Jaga agar ringkasan Blueprint atau `00 - TA Master Hub` hanya memuat konteks akademik/riset (jenjang, bidang prodi, status Blueprint, pedoman kampus, progres). Simpan data identitas pribadi sensitif (nama lengkap, NIM, nomor kontak, atau data rahasia instansi) hanya pada halaman sampul/draf resmi milik pengguna.
+2. **Pemisahan Identitas Pribadi:** Jaga agar ringkasan Blueprint, Kartu Memori Belajar (Lapis 1, 2, maupun 3), atau `00 - TA Master Hub` hanya memuat konteks akademik/riset dan gaya belajar (jenjang, bidang prodi, tingkat bahasa, gaya tangkap, status Blueprint, pedoman kampus, progres). Simpan data identitas pribadi sensitif (nama lengkap, NIM, nomor kontak, atau data rahasia instansi) hanya pada halaman sampul/draf resmi milik pengguna.
