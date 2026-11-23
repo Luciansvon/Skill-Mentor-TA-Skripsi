@@ -1,25 +1,26 @@
 # TA Modular Mentor
 
-A modular, adaptive, and deliberately critical AI mentor for writing an Indonesian undergraduate thesis (**Tugas Akhir / TA / skripsi**). It helps a student go from "I have no idea where to start" to a defense-ready draft — without locking onto a single title, object, or method before the student has actually decided.
+A modular, adaptive, and deliberately critical AI mentor for writing an Indonesian academic thesis (**KTI / TA D3, Skripsi / TA D4 & S1 including Creative/Design TA, and S2 Master's Thesis**). It helps a student go from "I have no idea where to start" to a defense-ready draft — across campuses, disciplines, and writing tools — without locking onto a single title, object, or method before the student has actually decided.
 
-The skill itself is written in Indonesian, because that is the language of the thesis, the supervisor conversations, and the defense simulation it is built for.
+The skill itself is written in Indonesian for mentoring, while academic drafts and text audits automatically adapt to the manuscript language (**Indonesian** per EYD V/KBBI or **academic English**, including bilingual abstracts and international programs).
 
 ## What it does
 
-- **Triage when stuck.** Turns a messy brain dump into a current position, the real blocker, and one small action that can be done away from the chat in about 15 minutes.
-- **Explores topics without forcing a decision.** Tests title candidates against data availability, remaining time, field access, and the student's study level and discipline.
-- **Writes and audits Chapters 1–5.** Keeps the problem statement, objectives, methods, instruments, and final output aligned 1:1; builds the Chapter 2 literature matrix and gap; paraphrases original academic prose suitable for similarity checks (Turnitin).
-- **Designs field instruments.** Interview guides, observation sheets, document checklists, and expert validation forms — each tied to data that is actually analyzed, with an operational Plan B when field data is incomplete.
-- **Audits methodology.** Adapts to the chosen approach (quantitative, qualitative, descriptive, case study, FMEA, SQC, system design, or others), and rejects vague normative recommendations in favor of specific, measurable ones.
+- **Gentle onboarding & triage when stuck.** Greets new users with a compact 6-entry-point menu instead of immediate interrogation, and turns a messy brain dump into a current position, the real blocker, and one concrete 15-minute action away from the chat.
+- **Explores topics across all disciplines.** Tests title candidates against four research tracks (field/institution, human respondents, experiment/design, secondary/literature/legal data), data availability, remaining time, and study level.
+- **Writes and audits Chapters 1–5.** Enforces full traceability across research questions, objectives, methods, and discussion; builds the Chapter 2 literature matrix and gap; guides original literature synthesis (Turnitin similarity-check friendly, always with mandatory citations); and audits Chapter 4 discussion against Chapter 2 theory.
+- **Designs data instruments with a Plan B.** Interview/FGD guides, questionnaires, observation sheets, testing protocols, and secondary data checklists — paired with operational fallback plans and chat data anonymization reminders.
+- **Audits methodology & recommendations.** Adapts across qualitative, quantitative/experimental, legal/SLR, IT/system/design R&D, and risk/decision approaches, rejecting vague normative recommendations in favor of concrete, measurable artifacts.
 - **Prepares supervisor meetings.** Compresses progress into three verified points plus two sharp decision questions before the meeting; breaks raw supervisor revision notes into prioritized actions afterward.
-- **Runs a red-team defense simulation.** Four Indonesian examiner archetypes, with separate behavior for text chat and Gemini Live, plus slide/speech preparation and an evidence-based evaluation report.
+- **Runs a red-team defense simulation.** Pre-flight checks thesis inputs before Question 1, enforces strict 1-examiner-per-turn pacing across four Indonesian examiner archetypes, supports text chat and Voice Mode (such as Gemini Live or similar voice tools), enforces leak-free *Real Exam Mode* with `pause`/`selesai` controls, and closes with an evidence-based evaluation report.
 
 ## Core principles
 
-1. **No yes-man, evidence required.** Wrong or unsupported claims are corrected, never agreed with. Every correction cites a verifiable source — textbook, industry standard/ISO, regulation, or journal. If no reliable reference exists, the skill says so instead of inventing a citation. Claim labels adapt to the phase: a lighter tone during early exploration; strict `[TERVERIFIKASI]`, `[ASUMSI - BUTUH BUKTI]`, and `[KELIRU / PERLU KOREKSI]` labels during draft audits and defense practice.
-2. **Modular, never committed to one title.** Topics, titles, research objects, and methods stay adjustable slots until the student finalizes them explicitly.
-3. **Answer calibrator.** For long-winded or circular explanations, it runs a three-step calibration: short diagnosis → calibrated answer (one-sentence core, supporting evidence, scope link) → substance check. Held back during free-form early brainstorming unless requested.
-4. **Centralized context.** Checks the `Tugas Akhir` folder and the `00 - TA Master Hub` document in Google Drive as the single source of truth, and uses native Google Docs features (tabs, `@` smart chips, comments/suggesting, named version history) to sync progress. Sensitive personal data (full name, student ID, contact details, confidential company data) is kept out of that hub and left in official cover/draft documents only.
+1. **Campus guidelines first & academic integrity (Anti-Ghostwriting).** The student's official campus thesis guideline always takes highest priority over default chapter structures or citation styles. The mentor outlines, audits logic, polishes student drafts, and gives at most one sample paragraph — it refuses to fabricate data or ghostwrite an entire chapter from scratch.
+2. **No yes-man, evidence required.** Wrong or unsupported claims are corrected with verifiable sources — never invented citations. Presentation adapts by phase: a lighter tone during early exploration; strict `[TERVERIFIKASI]`, `[ASUMSI - BUTUH BUKTI]`, and `[KELIRU / PERLU KOREKSI]` labels during draft audits and defense evaluation (explicitly suspended during active *Real Exam Mode* turns until the final report).
+3. **Modular, never committed to one title.** Topics, titles, research objects, and methods stay adjustable slots until the student finalizes them explicitly.
+4. **Answer calibrator.** For long-winded or circular explanations during strict audit phases, it runs a three-step calibration: short diagnosis → calibrated answer (one-sentence core, supporting evidence, scope link) → substance check. Held back during early brainstorming and active *Real Exam Mode* turns.
+5. **Cross-platform documentation & privacy.** Works seamlessly with MS Word, LaTeX/Overleaf, Notion, or plain chat via copy-pasteable Blueprint summary blocks, with optional Google Drive / Docs (`00 - TA Master Hub`) sync only when Drive access is enabled and active. Reminds users to anonymize sensitive names (institutions, patients, students, informants) before pasting raw data into chat.
 
 ## Attribution
 
@@ -36,10 +37,10 @@ The same line is used when the skill is introduced at installation time. It is n
 | Module | Purpose |
 | --- | --- |
 | 0 — Triage & Anti-Stuck | Unblock the student; end with one concrete 15-minute action |
-| 1 — Exploration, Construction, Literature & Writing | Feasibility gate, title construction, Chapter 2 matrix, Chapters 1–5 |
-| 2 — Instruments & Field Strategy | Data collection tools aligned to the research questions, with Plan B |
-| 3 — Methodology & Analysis Audit | Logic-chain, indicators, subjectivity risk, validation, usable recommendations |
-| 4 — Presentation & Defense Simulation | 8–10 slide skeleton, speaker script, four examiner archetypes, evaluation report |
+| 1 — Exploration, Construction, Literature & Writing | 4-track feasibility gate, title construction, Chapter 2 matrix & original synthesis, full-traceability audit |
+| 2 — Instruments & Data Collection Strategy | Research-track aligned tools with operational Plan B and anonymization reminders |
+| 3 — Methodology, Chapter 4 & Recommendation Audit | Cross-discipline method audit, 4-step Chapter 4 discussion check, concrete recommendations |
+| 4 — Presentation & Defense Simulation | 8–10 slide skeleton, speaker script, pre-flight check, 4 examiner archetypes, leak-free Real Exam / Coaching Mode |
 | 5 — Supervision & Revision Breakdown | Pre-meeting briefing and post-meeting prioritized revision list |
 
 The student can switch modules at any point.
@@ -48,15 +49,15 @@ The student can switch modules at any point.
 
 ```text
 .
-├── SKILL.md                                  # Skill definition, core rules, and modules
+├── SKILL.md                                  # Lean routing brain, core rules, and negative triggers
 ├── LICENSE                                   # MIT License
 └── references/
-    ├── evidence-and-calibration.md           # Claim labels, anti-hallucination rules, 3-step calibrator
-    ├── modular-workflow.md                   # Module 0–5 protocols, blueprint, Drive/Docs conventions
-    └── defense-simulator.md                  # Slide prep, examiner archetypes, chat vs Live behavior
+    ├── evidence-and-calibration.md           # Claim labels, Real Exam override, anti-hallucination, 3-step calibrator
+    ├── modular-workflow.md                   # Module 0–5 protocols, 4-track gate, Ch. 4 audit, local/Drive fallback
+    └── defense-simulator.md                  # Slide prep, pre-flight check, examiner archetypes, chat vs Voice Mode
 ```
 
-`SKILL.md` holds the always-active rules and module routing. The files in `references/` are the detailed protocols to read when a module is activated.
+`SKILL.md` holds the always-active core rules and module routing. The files in `references/` act as the single source of truth for detailed operational protocols loaded on demand.
 
 ## Installation
 
@@ -71,19 +72,20 @@ Keep `SKILL.md` at the root of the skill folder and keep `references/` beside it
 
 ## Usage
 
-The skill activates when the user works on a thesis-related task. Example prompts:
+The skill activates when the user works on a thesis-related task (and explicitly avoids triggering on short coursework, business slides, or non-academic projects). Example prompts:
 
+- "Halo, kamu bisa bantu apa buat skripsiku?"
 - "I'm stuck, I have a pile of notes and no title. Help me start."
-- "Audit my Chapter 3 method — is the data chain actually valid?"
+- "Audit my Chapter 4 discussion — is it connected enough to Chapter 2?"
 - "Turn these journal findings into a Chapter 2 gap matrix."
 - "Break my supervisor's revision notes into a prioritized action list."
-- "Simulate my proposal defense with a methodology-focused examiner, in chat."
+- "Simulate my defense with a panel of 3 examiners in Real Exam Mode."
 
-It works in text chat and in voice sessions such as Gemini Live; the defense simulator changes its formatting and role-switching cues to suit the medium.
+It works in text chat and in voice sessions (such as Gemini Live or similar voice tools); the defense simulator changes its formatting and verbal cues to suit the medium.
 
 ## Author
 
-Bima Chakti Adi Surya — [GitHub](https://github.com/LuciansVon)
+Bima Chakti Adi Surya — [GitHub](https://github.com/Luciansvon)
 
 ## License
 
