@@ -65,7 +65,19 @@ The student can switch modules at any point.
 
 `SKILL.md` holds the always-active core rules and module routing. The files in `references/` act as the single source of truth for detailed operational protocols loaded on demand.
 
+## Compatible AI Platforms & Recommended Setup
+
+| Use Case | Recommended AI | Why It Fits |
+| --- | --- | --- |
+| **Voice Defense Simulation (Two-Way Spoken Practice)** | **Google Gemini (Gemini Live)**, **ChatGPT (Voice Mode / Advanced Voice)**, and **Claude (Voice Mode)** | Low-latency, interruptible spoken dialogue ideal for practicing against Indonesian examiner archetypes; the skill automatically drops tables/markdown and switches to concise spoken cues (Visual Tier 4). |
+| **Interactive Diagrams & Visual Explanations (Visual Tiers 1–2)** | **Claude (Artifacts)**, **Google Gemini (Canvas & image generation)**, and **ChatGPT (Canvas & image generation)** | Renders clickable/interactive diagrams, Mermaid flowcharts, or concept illustrations side-by-side with mentoring. |
+| **Full Native `SKILL.md` Loading & Local Auto-Memory (Layer 1)** | **Claude Code**, **Google Antigravity**, **Gemini CLI**, **OpenAI Codex CLI**, **Cursor**, **GitHub Copilot (VS Code)**, and **Windsurf** | Natively loads `SKILL.md` + on-demand `references/` and updates a local learning profile file automatically on triggers. |
+| **Optional Google Drive / Docs Sync (`00 - TA Master Hub`)** | **Google Gemini (Google Workspace / Drive enabled)** and Drive-connected agents (e.g., **Google Antigravity** or **Claude** with Google Drive integration) | Reads and updates `00 - TA Master Hub` including the **Profil & Gaya Belajar** tab without manual copy-paste. |
+| **Plain Web Chat / No-Install Workflow** | Any standard chat app (**ChatGPT**, **Gemini**, **Claude**, etc.) | Works fully via copy-pasteable Blueprint blocks, Learning Memory Cards, and clean text schematics. |
+
 ## Installation
+
+### Option A — Native `SKILL.md` Agents
 
 Copy this repository — or `SKILL.md` and the `references/` folder together — into a directory named `ta-modular-mentor` inside the skills directory of an AI agent that supports `SKILL.md`-style skills. For example:
 
@@ -75,6 +87,13 @@ git clone https://github.com/Luciansvon/Skill-Mentor-TA-Skripsi.git \
 ```
 
 If you install manually (e.g., via ZIP download) or target a cross-runtime directory such as `.agents/skills/ta-modular-mentor`, rename the folder to `ta-modular-mentor` so it matches the `name: ta-modular-mentor` field in `SKILL.md`, and keep `references/` right beside `SKILL.md` because relative paths load from there.
+
+### Option B — Chat & Voice Apps (Gemini Live, ChatGPT Voice, Claude Web/Mobile)
+
+If you prefer a regular chat or voice app without installing local agent tools:
+
+- **ChatGPT & Claude:** Upload `SKILL.md` and the `references/` files into a **Project** (or paste `SKILL.md`, `references/defense-simulator.md`, and a short summary of your Title, Research Questions, and Method at the start of a chat), then turn on **Voice Mode** in that conversation to run a spoken defense simulation.
+- **Google Gemini & Gemini Live:** Load the instructions via **Gemini Gems / Skills**, or prime a regular chat with `SKILL.md`, `references/defense-simulator.md`, and your thesis summary before switching to **Gemini Live** *(note: direct Gem or Skill support inside Live voice sessions can vary depending on account rollout, so priming a regular chat first is the most reliable path)*.
 
 ## Usage
 
